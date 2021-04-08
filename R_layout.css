@@ -1,0 +1,142 @@
+@media (max-width: 900px) {
+    body{
+        margin: 0 auto;
+        width: 100%;
+        min-height: 100vh;
+        background-color: rgba(31, 41, 55);
+        display: grid;
+        grid-template:
+            "...... ...... ...... ...... ......" 0px
+            "header header header header header" 5%
+            "...... ...... ...... ...... ......" 0px
+            "...... ...... main   ...... ..... " auto
+            "...... ...... left   ...... ......" auto
+            "...... ...... right ...... ......"  auto
+            "footer footer footer footer footer" 80px
+            "...... ...... ...... ...... ......" 0px
+            / 0 0 100% 0 0;
+    }
+    header {
+        grid-area: header;
+        display: flex;
+        justify-content: space-between;
+        width:100%;
+        color: rgba(212,199,170,1);
+        border-bottom: 6px solid rgba(55,65,81,1);
+    }
+    .left {
+        grid-area: left;
+        color: rgba(212,199,170,1);
+        
+    }
+    .right {
+        grid-area: right;
+        color: rgba(212,199,170,1);
+    }
+    main {
+        grid-area: main;
+        width: 100vw;
+    }
+    footer {
+        grid-area: footer;
+        width: 100%;
+        padding: auto;
+        text-align: center;
+    
+        background-color: #374151;
+    }
+}
+@media (min-width: 1301px) and (max-width: 1700px) {
+
+    body{
+        margin: 0 auto;
+        width: 1fr;
+        min-height: 100vh;
+        background-color: rgba(31, 41, 55);
+        display: grid;
+        grid-template:
+            "...... ...... ...... ...... ......" 0px
+            "header header header header header" 100px
+            "...... ...... ...... ...... ......" 0px
+            " left  ...... main   ...... ..... " auto
+            "right  ...... main ...... ......" auto
+            "...... ...... ...... ...... ......" 0px
+            "footer footer footer footer footer" 80px
+            "...... ...... ...... ...... ......" 0px
+            / 400px 0px 1fr 0px 0;
+    }
+    header {
+        grid-area: header;
+        display: flex;
+        justify-content: space-between;
+        color: rgba(212,199,170,1);
+        border-bottom: 6px solid rgba(55,65,81,1);
+    }
+    .left {
+        grid-area: left;
+        color: rgba(212,199,170,1);
+        
+    }
+    .right {
+        grid-area: right;
+        color: rgba(212,199,170,1);
+    }
+    main {
+        grid-area: main;
+    }
+    footer {
+        grid-area: footer;
+        width: 100%;
+        padding: auto;
+        text-align: center;
+    
+        background-color: #374151;
+    }
+}
+@media (min-width: 901px) and (max-width: 1310px) {
+
+    body{
+        margin: 0 auto;
+        width: 1fr;
+        min-height: 100vh;
+        background-color: rgba(31, 41, 55);
+        display: grid;
+        grid-template:
+            "...... ...... ...... ...... ......" 0px
+            "header header header header header" 100px
+            "...... ...... ...... ...... ......" 0px
+            "...... ...... main   ...... ..... " auto
+            "...... ...... left   ...... ......" auto
+            "...... ...... right ...... ......"  auto
+            "footer footer footer footer footer" 80px
+            "...... ...... ...... ...... ......" 0px
+            / 0px 0px 1fr 0px 0;
+    }
+    header {
+        grid-area: header;
+        display: flex;
+        justify-content: space-between;
+        color: rgba(212,199,170,1);
+        border-bottom: 6px solid rgba(55,65,81,1);
+    }
+    .left {
+        grid-area: left;
+        color: rgba(212,199,170,1);
+        
+    }
+    .right {
+        grid-area: right;
+        color: rgba(212,199,170,1);
+    }
+    main {
+        grid-area: main;
+    }
+    footer {
+        grid-area: footer;
+        width: 100%;
+        padding: auto;
+        text-align: center;
+    
+        background-color: #374151;
+    }
+}
