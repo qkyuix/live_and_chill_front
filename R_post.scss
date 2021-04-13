@@ -1,0 +1,40 @@
+@media (max-width: 900px) {
+    main {
+      margin: 20px 10px 0 10px;
+      font-size: 20px;
+      .post_name {
+        display: block;
+        margin: 20px 0 0 0;
+
+        h2 {
+            text-align: left;
+            width:100%;
+        }
+        .comment_user_day {
+            width: 100%;
+
+        }
+      }
+  
+      .comment_block {
+        display: block !important;
+        width: 100%;
+        padding: 0px;
+
+        .comment {
+            width: 100% !important;
+        }
+        .comment_user_day {
+            width: 100% !important;
+            padding-top:13px;
+            font-size:17px;
+        }
+      }
+    }
+  }
+@media (min-width: 901px) and (max-width: 1310px) {
+
+}
+@media (min-width: 1301px) and (max-width: 1700px){
+
+}
